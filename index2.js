@@ -1,5 +1,4 @@
-const {nextISSTimesForMyLocation} = require("./iss_promised");
-const {printPassTimes} = require("./index");
+const {nextISSTimesForMyLocation, printPassTimes} = require("./iss_promised");
 
 nextISSTimesForMyLocation()
   .then((passTimes) => {
